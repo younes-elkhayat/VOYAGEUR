@@ -1,0 +1,98 @@
+body{
+    background-color: #FAEBD7;
+}
+nav>img{
+    float: inline-start;
+    height: 75px;
+    width: 75px;
+}
+nav>ul{
+    list-style: none;
+    float: right;
+}
+nav li, a{
+    padding-top: 10px;
+    margin-inline: 5px;
+    display: inline;
+    text-decoration-line: none;
+    font-size: bold;
+}
+header{
+    border-bottom: dotted #000;
+    margin-bottom: 5px;
+}
+main,footer{
+    font-family: cursive;
+}
+.container{
+    margin-inline:2.5% ;
+}
+.camp{
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    height: 200px;
+    background-image: url(banniere.svg);
+    border-radius: 10PX;
+}
+.camp-text{
+    padding-inline: ;
+    width: 100%;
+    position: absolute;
+    display: block;
+    bottom: 0%;
+    background-color: #faebd77e;
+}
+.btn{
+    background-color: #a52a2a;
+    border-radius: 5px;
+    border: none;
+    float: right;
+}
+.inL{
+    justify-self: end;
+    display: inline;
+    padding: 5px;
+}
+
+.row{
+    display: flex;
+    margin-block: 1%;
+    column-gap: 5%;
+    justify-items: baseline;
+}
+.article{
+    flex-shrink: 1.2;
+}
+.aside{
+    box-sizing: content-box;
+    background-color: #808080;
+    text-align: center;
+    color: #FAEBD7;
+    border-radius: 10px;
+}
+.aside>img{
+    height: 75px;
+    width: 75px;
+}
+.aside>p{
+    text-align: left;
+    padding-left: 7px;
+}
+hr{
+    stroke: #000;
+}
+.row-2{
+    display: flex;
+    margin-block: 1%;
+    column-gap: 5%;
+    justify-content: center;
+}
+.f-img{
+    width: 55px;
+    height: 35px;
+}
+.center{
+    text-align: center;
+}
+.fa-brands{margin: 2%;}%%ù
